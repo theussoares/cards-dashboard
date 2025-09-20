@@ -1,0 +1,42 @@
+export default function Logo() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="80"
+      height="80"
+      viewBox="0 0 200 80"
+      className="sm:!mr-4"
+    >
+      {" "}
+      <circle cx="25" cy="15" r="8" fill="#0097A7" />{" "}
+      <text
+        x="20"
+        y="55"
+        fontFamily="Arial, sans-serif"
+        fontSize="80"
+        fontWeight="bold"
+        fill="#000000"
+      >
+        r
+      </text>{" "}
+      <text
+        x="50"
+        y="55"
+        fontFamily="Arial, sans-serif"
+        fontSize="32"
+        fill="#000000"
+      >
+        revise
+      </text>{" "}
+      <text
+        x="135"
+        y="55"
+        fontFamily="Arial, sans-serif"
+        fontSize="32"
+        fill="#0097A7"
+      >
+        la
+      </text>{" "}
+    </svg>
+  );
+}

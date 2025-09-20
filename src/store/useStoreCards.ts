@@ -59,7 +59,7 @@ export const useStoreCards = create<CardsStore>((set, get) => ({
         if (currentScreen === "bookmarks") cards = get().getBookmarkedCards();
         if (currentScreen === "mylibrary") cards = get().getMyCards();
         if (currentScreen === "trash") cards = get().trash;
-        if (currentScreen === "recents") cards = get().getRecentOpenedCards();
+        if (currentScreen === "recents") cards = get().getRecentCards();
         if (currentScreen === "shared") cards = get().getSharedWithMeCards();
 
         if (cards.length === 0) {

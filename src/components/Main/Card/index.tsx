@@ -1,7 +1,7 @@
 import { useStoreCards } from "../../../store/useStoreCards";
 import Bookmark from "../../icons/Bookmark";
 import Bookmarked from "../../icons/Bookmarked";
-import Ellipsis from "../../icons/ellipsis";
+import Ellipsis from "../../icons/Ellipsis";
 import Star from "../../icons/Star";
 
 interface CardProps {

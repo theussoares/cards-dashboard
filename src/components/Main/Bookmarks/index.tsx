@@ -26,7 +26,7 @@ export default function Bookmarks() {
             className={`flex w gap-4 max-w-full w-full 
             ${
               currentScreen === "bookmarked"
-                ? "grid col-span-1 md:grid-cols-2 lg:grid-cols-3"
+                ? "grid col-span-1 sm:grid-cols-2 lg:grid-cols-3"
                 : "flex-col sm:!flex-row sm:overflow-x-auto"
             }
             `}

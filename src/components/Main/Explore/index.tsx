@@ -19,12 +19,10 @@ export default function Explore() {
             <h3 className="text-xl">Explore</h3>
           </div>
           <ul
-            className={`gap-4 max-w-full w-full sm:overflow-x-auto flex flex-wrap
-            
-            `}
+            className="!gap-4 max-w-full w-full sm:overflow-x-auto grid col-span-1 sm:grid-cols-2 lg:grid-cols-3"
           >
             {cards.map((card, index) => (
-              <li className="w-fit flex justify-center" key={index}>
+              <li className="w-full flex justify-center" key={index}>
                 <Card {...card} />
               </li>
             ))}
